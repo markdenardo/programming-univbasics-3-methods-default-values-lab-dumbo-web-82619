@@ -1,7 +1,9 @@
 # Your code here
 def meal_choice (veg1, veg2, protein="meat")
-  puts "What a nutritious meal!"
-  puts "A plate of #{protein} with #{veg1} and #{veg2}."
+  message1 = "What a nutritious meal!"
+  message2 = "A plate of #{protein} with #{veg1} and #{veg2}."
+  return message1
+  return message2
 end
 
 meal_choice("broccoli", "macaroni")
