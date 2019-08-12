@@ -8,8 +8,6 @@
  # #meal_choice should puts "What a nutritious meal!" and your order to the console
 
 def meal_choice (veg1,veg2,protein="meat")
-
- order = "A plate of #{protein} with #{veg1} and #{veg2}."
- puts "What a nutritious meal! "+order
- # puts order
+ order = "What a nutritious meal! " "A plate of #{protein} with #{veg1} and #{veg2}."
+puts order
 end
